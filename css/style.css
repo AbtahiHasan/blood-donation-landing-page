@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Moon+Dance&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #faf1ef;
+  --link-color: #0b001c;
+  --red-color: #ff4951;
+}
+/* common css code  */
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.btn {
+  padding: 10px 40px;
+  background: var(--red-color);
+  color: var(--primary-color);
+  border-radius: 30px;
+}
+.btn:hover {
+  color: var(--primary-color);
+}
+/* header section  */
+.header {
+  background: var(--primary-color);
+  background-image: url("../images/background.png");
+  background-repeat: none;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 100px;
+}
+
+.header .container .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.header .navbar .navlinks ul li {
+  margin-right: 40px;
+}
+.header .navbar .navlinks ul li a {
+  font-size: 24px;
+}
+.header .navbar .navlinks ul li a:hover {
+  color: var(--red-color);
+}
+/* banner section  */
+.banner .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.banner .text-container {
+  margin-top: 100px;
+}
+.banner .text-container h1 {
+  font-size: 100px;
+  color: var(--red-color);
+  line-height: 5rem;
+}
+.banner .text-container h2 {
+  font-size: 60px;
+  font-family: "Courgette", cursive;
+}
+.banner .text-container p.first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.banner .text-container p.last-child {
+  font-size: 18px;
+  margin: 15px 0;
+}
+.button-container {
+  margin-top: 40px;
+}
+.banner .btn.btn1 {
+  background: var(--link-color);
+}
+.banner .btn.btn2 {
+  background: transparent;
+  color: var(--link-color);
+}
+.banner .follow-us {
+  position: relative;
+}
+.banner .follow-us h3 {
+  position: absolute;
+  right: 29px;
+  top: 144px;
+}
+.social-link {
+  position: absolute;
+  top: 300px;
+  right: 30px;
+  flex-direction: column;
+}
+.social-link li {
+  margin: 10px;
+}
+.social-link li i {
+  color: var(--primary-color);
+  background: var(--link-color);
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+}
