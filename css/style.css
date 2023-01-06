@@ -118,6 +118,7 @@ a {
 }
 .social-link li {
   margin: 10px;
+  display: block;
 }
 .social-link li i {
   color: var(--primary-color);

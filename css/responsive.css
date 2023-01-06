@@ -47,4 +47,33 @@
     width: 20px;
     height: 20px;
   }
+  .banner .container {
+    grid-template-columns: 1fr;
+  }
+  .banner .text-container h1 {
+    font-size: 50px;
+  }
+  .banner .text-container h2 {
+    font-size: 35px;
+  }
+  .banner .follow-us h3 {
+    text-align: center;
+    position: static;
+  }
+  .social-link {
+    position: static;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .social-link li {
+    display: inline;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    padding: 0 15px;
+    background-image: none;
+    height: 100%;
+  }
 }
