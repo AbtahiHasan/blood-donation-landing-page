@@ -4,6 +4,9 @@
   }
 }
 @media (max-width: 1050px) {
+  .header {
+    background-image: none;
+  }
   .header .navbar .navlinks ul li a {
     font-size: 18px;
   }
@@ -73,7 +76,6 @@
 @media (max-width: 600px) {
   .header {
     padding: 0 15px;
-    background-image: none;
     height: 100%;
   }
 }
